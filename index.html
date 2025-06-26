@@ -8,11 +8,30 @@
 </head>
 <body>
     <h1>ATS Project</h1>
-
+    <form id="optimizeForm">
+        <label for="resumeText">Paste your resume text:</label>
+        <textarea id="resumeText" rows="10" placeholder="Paste plain text of your resume…"></textarea>
+    
+        <label for="jobDesc">Paste the job description:</label>
+        <textarea id="jobDesc" rows="10" placeholder="Paste the JD here…"></textarea>
+    
+        <button type="submit">Analyze</button>
+    </form>
+    
+    <div id="results" class="hidden">
+        <h2>Missing Keywords</h2>
+        <ul id="keywords"></ul>
+    
+        <h2>Rewritten Bullets</h2>
+        <div id="rewrites"></div>
+        <!-- </div> -->
+    </div>
+    
+    <script src="app.js"></script>
 
 
 
         <script src="script.js"></script>
-        
+
 </body>
 </html>
