@@ -1,3 +1,11 @@
+CopyEdit
+//     /
+// ├── index.html
+// ├── styles.css
+// ├── app.js
+// └── netlify / functions / optimize.js  
+
+
 // netlify/functions/optimize.js
 const OpenAI = require('openai');
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
